@@ -1,17 +1,17 @@
 <?php
 
 // Database connection details
-require 'C:\xampp\htdocs\LOGINTEST\PHPMailer-master\src\Exception.php';
-require 'C:\xampp\htdocs\LOGINTEST\PHPMailer-master\src\PHPMailer.php';
-require 'C:\xampp\htdocs\LOGINTEST\PHPMailer-master\src\SMTP.php';
+require 'PHPMailer-master/src/Exception.php';
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
 include 'inc/header.php';
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+use PHPMailer/PHPMailer/PHPMailer;
+use PHPMailer/PHPMailer/Exception;
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "ip-10-0-10-253";
+$username = "admin";
+$password = "admin";
 $dbname = "login";
 
 // Create connection

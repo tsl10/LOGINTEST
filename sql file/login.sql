@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE login;
 
-user login;
+use login;
 
 CREATE TABLE `cvs` (
   `id` int(100) NOT NULL,
