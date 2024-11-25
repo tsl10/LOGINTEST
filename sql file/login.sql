@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `login`
+
 --
 
 -- --------------------------------------------------------
@@ -26,6 +26,9 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `cvs`
 --
+CREATE DATABASE login;
+
+user login;
 
 CREATE TABLE `cvs` (
   `id` int(100) NOT NULL,
@@ -75,7 +78,7 @@ INSERT INTO `cvs` (`id`, `email`, `filename`, `mime_type`, `size`, `uploaded_at`
 --
 -- Table structure for table `users`
 --
-
+use login;
 CREATE TABLE `users` (
   `id` int(100) NOT NULL,
   `firstName` varchar(100) NOT NULL,
@@ -157,7 +160,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `login`
+
 --
 
 -- --------------------------------------------------------
@@ -165,6 +168,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `tbl_roles`
 --
+
+use login;
 
 CREATE TABLE `tbl_roles` (
   `id` int(11) NOT NULL COMMENT 'role_id',
@@ -185,6 +190,8 @@ INSERT INTO `tbl_roles` (`id`, `role`) VALUES
 --
 -- Table structure for table `tbl_users`
 --
+
+use login;
 
 CREATE TABLE `tbl_users` (
   `id` int(11) NOT NULL,
