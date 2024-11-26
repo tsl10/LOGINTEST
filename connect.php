@@ -1,5 +1,5 @@
 <?php
-$host="ip-10-0-10-253";
+$host="34.222.90.55";
 $user="admin";
 $pass="admin";
 $db="login";

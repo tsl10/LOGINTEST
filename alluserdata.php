@@ -4,9 +4,9 @@ include 'inc/header.php';
 Session::CheckSession();
 
 // Include database connection details
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "34.222.90.55";
+$username = "admin";
+$password = "admin";
 $dbname = "login";
 
 // Create connection

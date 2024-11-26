@@ -9,7 +9,7 @@ include 'inc/header.php';
 use PHPMailer/PHPMailer/PHPMailer;
 use PHPMailer/PHPMailer/Exception;
 
-$servername = "ip-10-0-10-253";
+$servername = "34.222.90.55";
 $username = "admin";
 $password = "admin";
 $dbname = "login";
