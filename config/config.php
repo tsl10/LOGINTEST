@@ -1,7 +1,7 @@
 <?php
 
 
-define('DB_HOST', 'ip-10-0-10-253');
-define('DB_NAME', 'login');
-define('DB_USER', 'admin');
-define('DB_PASS', 'admin');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'kamilmwg_login');
+define('DB_USER', 'kamilmwg_admin');
+define('DB_PASS', '');

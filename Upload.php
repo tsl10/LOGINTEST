@@ -9,10 +9,10 @@ include 'inc/header.php';
 use PHPMailer/PHPMailer/PHPMailer;
 use PHPMailer/PHPMailer/Exception;
 
-$servername = "34.222.90.55";
-$username = "admin";
-$password = "admin";
-$dbname = "login";
+$servername = "localhost";
+$username = "kamilmwg_admin";
+$password = "";
+$dbname = "kamilmwg_login";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
