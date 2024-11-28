@@ -11,7 +11,7 @@ use PHPMailer/PHPMailer/Exception;
 
 $servername = "localhost";
 $username = "kamilmwg_admin";
-$password = "";
+$password = "Database$login12";
 $dbname = "kamilmwg_login";
 
 // Create connection

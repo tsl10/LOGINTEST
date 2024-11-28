@@ -1,7 +1,7 @@
 <?php
 $host="localhost";
 $user="kamilmwg_admin";
-$pass="";
+$pass="Database$login12";
 $db="kamilmwg_login";
 $conn=new mysqli($host,$user,$pass,$db);
 if($conn->connect_error){
